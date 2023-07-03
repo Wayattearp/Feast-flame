@@ -10,15 +10,17 @@ body {
   width: 200px;
   height: auto;
   position: absolute;
-  left:50%;
+  left: 50%;
   margin-left: -100px;
   top: 100px;
 }
+
 .mo-fire svg {
   width: 100%;
   height: auto;
   position: relative
 }
+
 .flame {
   animation-name: flamefly;
   animation-duration: 3s;
@@ -28,12 +30,14 @@ body {
   transform-origin: 50% 50% 0;
   filter: blur(2px);
 }
+
 .flame.one {
   animation-delay: 1s;
   animation-duration: 2s;
   filter: blur(1px);
 }
-.flame3.two{
+
+.flame.two {
   animation-duration: 5s;
   animation-delay: 1s;
   filter: blur(2px);
@@ -44,61 +48,75 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
-filter:blur(0.5px)
+  filter: blur(0.5px)
 }
+
 .flame-main.one {
-  animation-duration: 4s;
-  animation-delay: 1s;
-  filter:blur(2px)
+  animation-duration: 2.25s;
+    animation-delay: 0.5s;
+    filter: blur(1px)
 }
+
 .flame-main.two {
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 0.25s;
+  filter: blur(1px)
 }
+
 .flame-main.three {
-  animation-duration: 1s;
-  animation-delay: 0s;
+  animation-duration: 1.25s;
+    filter: blur(8px);
+}
+
+.flame-main.four {
+  animation-duration: 1.s;
+    animation-delay: 0s;
+    filter: blur(8px);
+}
+
+.flame-main.five {
+  animation-duration: 1.25s;
+  animation-delay: 2s;
   filter: blur(8px);
 }
-.flame-main.four {
-  animation-duration: 3.2s;
-  animation-delay: 4s;
-}
-.flame-main.five {
-  animation-duration: 3s;
-  animation-delay: 2s;
-  filter: blur(10px);
-}
+
 @keyframes flameWobble {
   50% {
-    transform: scale(1,1.2) translate(0, -30px) rotate(-1deg);
+    transform: scale(1, 1.2) translate(0, -30px) rotate(-1deg);
   }
+
   20% {
-     filter: blur(2px);
+    filter: blur(2px);
   }
 }
+
 @keyframes flamefly {
-  0%{
+  0% {
     transform: translate(0) rotate(180deg);
     transform: translate(0) rotate(180deg);
   }
-   50% {
-     opacity: 1;
+
+  50% {
+    opacity: 1;
   }
+
   100% {
     transform: translate(-20px, -100px) rotate(180deg);
     opacity: 0;
   }
 }
-  
-  @keyframes glow{
-  0%,100%{
-    
-    background:#ef5a00;
+
+@keyframes glow {
+
+  0%,
+  100% {
+
+    background: #ef5a00;
   }
-  50%{
-    background:#ff7800;
-    
+
+  50% {
+    background: #ff7800;
+
   }
-  
+
 }
