@@ -92,7 +92,7 @@ body {
 
 @keyframes flamefly {
   0% {
-    transform: translate(0) rotate(180deg);
+    transform: translate(0) rotate(181deg);
     transform: translate(0) rotate(180deg);
   }
 
