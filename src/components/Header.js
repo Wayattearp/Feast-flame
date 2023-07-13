@@ -3,7 +3,7 @@ function Header() {
     return (
         <header>
             <Flame/>
-           Feast Flame
+           <h2>Feast Flame</h2>
         </header>
     )
 }
