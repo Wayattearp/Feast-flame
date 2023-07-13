@@ -7,7 +7,7 @@ function Header() {
         <header>
             <Link to="/">
                 <Flame />
-                <h2> Feast Flame</h2>
+                <h1> Feast Flame</h1>
             </Link>
         </header>
     )
