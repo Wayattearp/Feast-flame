@@ -69,13 +69,13 @@ header {
 
 .flame-main.three {
   animation-duration: 1.25s;
-  filter: blur(8px);
+  filter: blur(6px);
 }
 
 .flame-main.four {
   animation-duration: 1.s;
-  animation-delay: 0s;
-  filter: blur(8px);
+  animation-delay: 3s;
+  filter: blur(2px);
 }
 
 .flame-main.five {
