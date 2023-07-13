@@ -37,8 +37,12 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-a{
+
+header a{
   color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 
