@@ -7,12 +7,12 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <>
+    <div className='wrapper'>
       <Header />
       <Nav />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
