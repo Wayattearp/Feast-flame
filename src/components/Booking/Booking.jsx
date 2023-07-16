@@ -1,9 +1,10 @@
 import React from 'react';
+import Form from './Form';
 
 function Booking() {
     return (
         <div className='booking'>
-            Booking
+            <Form/>
         </div>
     )
 }

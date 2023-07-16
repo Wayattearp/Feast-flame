@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
 import Nav from './components/Nav';
-import Booking from './components/Booking';
+import Booking from './components/Booking/Booking';
 
 function App() {
   return (

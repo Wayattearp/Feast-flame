@@ -92,7 +92,7 @@ nav {
 
 nav a {
   position: relative;
-  color: wheat;
+  color: #F7F1E5;
   font-weight: 600;
 }
 
@@ -115,6 +115,12 @@ nav a:after {
 nav a:hover:after {
   opacity: 1;
   transform: translateY(0px);
+}
+
+nav a:hover {
+  transition: all 0.2s;
+  color: #faefd3;
+  text-shadow: 0 0 1px rgba(250, 239, 211, 0.9);
 }
 
 main {
