@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dccc9b6c.css",
-    "main.js": "/static/js/main.22fb23cd.js",
-    "static/js/787.e89d78e9.chunk.js": "/static/js/787.e89d78e9.chunk.js",
-    "index.html": "/index.html",
-    "main.dccc9b6c.css.map": "/static/css/main.dccc9b6c.css.map",
-    "main.22fb23cd.js.map": "/static/js/main.22fb23cd.js.map",
-    "787.e89d78e9.chunk.js.map": "/static/js/787.e89d78e9.chunk.js.map"
+    "main.css": "/feast-flame/static/css/main.dccc9b6c.css",
+    "main.js": "/feast-flame/static/js/main.adffe5f0.js",
+    "static/js/787.e89d78e9.chunk.js": "/feast-flame/static/js/787.e89d78e9.chunk.js",
+    "index.html": "/feast-flame/index.html",
+    "main.dccc9b6c.css.map": "/feast-flame/static/css/main.dccc9b6c.css.map",
+    "main.adffe5f0.js.map": "/feast-flame/static/js/main.adffe5f0.js.map",
+    "787.e89d78e9.chunk.js.map": "/feast-flame/static/js/787.e89d78e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dccc9b6c.css",
-    "static/js/main.22fb23cd.js"
+    "static/js/main.adffe5f0.js"
   ]
 }
