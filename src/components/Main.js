@@ -23,7 +23,12 @@ function Main() {
     return (
         <main>
             <Link to="/booking">Reserve a table</Link>
-            <BookingForm date={date} dispatch={dispatch} availableTimes={availableTimes} />
+            <BookingForm
+                date={date}
+                dispatch={dispatch}
+                availableTimes={availableTimes}
+                aria-label="Booking Form"
+            />
         </main>
     );
 }
