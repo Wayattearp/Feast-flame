@@ -1,20 +1,23 @@
 import React, { useState } from 'react';
 
-function Form() {
-    const [date, setDate] = useState('');
+function Form(props) {
     const [time, setTime] = useState('');
     const [guests, setGuests] = useState(1);
     const [occasion, setOccasion] = useState('');
-    const [availableTimes] = useState(['17:00', '18:00', '19:00', '20:00', '21:00', '22:00']);
+
+    function handleDateChange(e) {
+        const selectedDate = e.target.value;
+        props.dispatch(selectedDate);
+    }
 
     return (
         <form style={{ display: 'grid', maxWidth: '200px', gap: '20px' }}>
             <label htmlFor="res-date">Choose date</label>
-            <input type="date" id="res-date" value={date} onChange={(e) => setDate(e.target.value)} />
+            <input type="date" id="res-date" value={props.date} onChange={handleDateChange} />
 
             <select id="res-time" value={time} onChange={(e) => setTime(e.target.value)}>
                 {/* Populate options from the availableTimes state */}
-                {availableTimes.map((time) => (
+                {props.availableTimes.map((time) => (
                     <option key={time}>{time}</option>
                 ))}
             </select>
