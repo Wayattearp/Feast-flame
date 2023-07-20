@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Form(props) {
+function BookingForm(props) {
     const [time, setTime] = useState('');
     const [guests, setGuests] = useState(1);
     const [occasion, setOccasion] = useState('');
@@ -42,4 +42,4 @@ function Form(props) {
     );
 }
 
-export default Form;
+export default BookingForm;
