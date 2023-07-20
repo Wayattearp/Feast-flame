@@ -17,7 +17,7 @@ function BookingForm(props) {
 
             <select id="res-time" value={time} onChange={(e) => setTime(e.target.value)}>
                 {/* Populate options from the availableTimes state */}
-                {props.availableTimes.map((time) => (
+                {props.availableTimes && props.availableTimes.map((time) => (
                     <option key={time}>{time}</option>
                 ))}
             </select>
@@ -40,6 +40,6 @@ function BookingForm(props) {
             <input type="submit" value="Make Your reservation" />
         </form>
     );
-}
+                }
 
 export default BookingForm;
