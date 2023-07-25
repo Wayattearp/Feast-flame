@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import Booking from './components/Booking/Booking';
+import ConfirmedBooking from './components/Booking/ConfirmedBooking';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/booking" element={<Booking />} />
+          <Route path="/confirmed" element={<ConfirmedBooking />} />
         </Routes>
         <Footer />
       </Router>

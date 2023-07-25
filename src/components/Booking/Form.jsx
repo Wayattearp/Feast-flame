@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import ConfirmedBooking from './ConfirmedBooking';
+import { useNavigate } from 'react-router-dom';
 
 function Form() {
     const [date, setDate] = useState('');
@@ -6,9 +8,22 @@ function Form() {
     const [guests, setGuests] = useState(1);
     const [occasion, setOccasion] = useState('');
     const [availableTimes] = useState(['17:00', '18:00', '19:00', '20:00', '21:00', '22:00']);
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        // Get the current date in the format "YYYY-MM-DD"
+        const currentDate = new Date().toISOString().split('T')[0];
+        setDate(currentDate);
+    }, []); // Run this effect only once on component mount
+
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Prevent default form submission behavior
+
+        navigate('/confirmed');
+    };
 
     return (
-        <form style={{ display: 'grid', maxWidth: '200px', gap: '20px' }}>
+        <form style={{ display: 'grid', maxWidth: '200px', gap: '20px' }} onSubmit={handleSubmit}>
             <label htmlFor="res-date">Choose date</label>
             <input type="date" id="res-date" value={date} onChange={(e) => setDate(e.target.value)} />
 
