@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import ConfirmedBooking from './ConfirmedBooking';
 import { useNavigate } from 'react-router-dom';
 
 function Form() {
