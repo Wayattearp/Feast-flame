@@ -22,17 +22,28 @@ function Form() {
     };
 
     return (
-        <form style={{ display: 'grid', maxWidth: '200px', gap: '20px' }} onSubmit={handleSubmit}>
-            <label htmlFor="res-date">Choose date</label>
-            <input type="date" id="res-date" value={date} onChange={(e) => setDate(e.target.value)} />
+        <form className="reservation-form"onSubmit={handleSubmit}>
+            <label htmlFor="res-date">Date:</label>
+            <input
+                type="date"
+                id="res-date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+            />
 
-            <select id="res-time" value={time} onChange={(e) => setTime(e.target.value)}>
+            <label htmlFor="res-time">Time:</label>
+            <select
+                id="res-time"
+                value={time}
+                onChange={(e) => setTime(e.target.value)}
+            >
                 {/* Populate options from the availableTimes state */}
                 {availableTimes.map((time) => (
                     <option key={time}>{time}</option>
                 ))}
             </select>
 
+            <label htmlFor="guests">Number of guests:</label>
             <input
                 type="number"
                 placeholder="1"
@@ -43,13 +54,19 @@ function Form() {
                 onChange={(e) => setGuests(parseInt(e.target.value))}
             />
 
-            <select id="occasion" value={occasion} onChange={(e) => setOccasion(e.target.value)}>
+            <label htmlFor="occasion">Occasion:</label>
+            <select
+                id="occasion"
+                value={occasion}
+                onChange={(e) => setOccasion(e.target.value)}
+            >
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
 
-            <input type="submit" value="Make Your reservation" />
+            <input className="reserve-button" type="submit" value="Make Your reservation" />
         </form>
+
     );
 }
 

@@ -38,6 +38,7 @@ textarea {
   line-height: inherit;
 }
 
+
 header a {
   color: black;
   display: flex;
@@ -108,7 +109,7 @@ nav a:after {
 }
 
 nav a:after {
-  bottom: -1px;
+  bottom: -5px;
   transform: translateY(15px);
 }
 
@@ -122,6 +123,8 @@ nav a:hover {
   color: #faefd3;
   text-shadow: 0 0 1px rgba(250, 239, 211, 0.9);
 }
+
+
 
 main {
   background-color: #F7F1E5;
@@ -257,4 +260,71 @@ footer {
 
   }
 
+}
+
+
+.reservation-form {
+  display: grid;
+  max-width: 400px;
+  /* Adjust the max-width for larger screens */
+  width: 90%;
+  /* Set the form width to 90% of the container */
+  gap: 20px;
+  /* Set the form background color */
+  padding: 20px;
+  border-radius: 10px;
+   margin: 0 auto;
+}
+
+/* Style the label */
+.reservation-form label {
+  font-weight: 500;
+  display: flex;
+  font-size: 16px;
+  color: rgb(43, 62, 10);
+}
+
+/* Style the input fields and select boxes */
+.reservation-form input[type="date"],
+.reservation-form input[type="number"],
+.reservation-form select {
+  /* Set the input fields and selects to occupy the full width */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* Style the submit button */
+.reservation-form input[type="submit"] {
+  background-color: #862B0D;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  /* Add transition for animation */
+}
+
+.reservation-form input[type="submit"]:hover {
+  transition: background-color 0.2s ease;
+  background-color: #354c16;
+  /* Change the background color on hover */
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .reservation-form {
+    max-width: 90%;
+    /* Adjust the form width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .reservation-form {
+    max-width: 100%;
+    /* Adjust the form width for even smaller screens */
+  }
 }
