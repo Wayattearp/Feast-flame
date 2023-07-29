@@ -16,7 +16,7 @@ function App() {
         <Header />
         <Nav />
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="" element={<Main />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/confirmed" element={<ConfirmedBooking />} />
         </Routes>

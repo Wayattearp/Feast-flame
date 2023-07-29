@@ -8,6 +8,7 @@
   border-radius: 1rem;
   overflow: hidden;
   background-color: #F7F1E5;
+  margin-bottom: 2vh;
 }
 
 .meal-card:hover .meal-card-image img {
@@ -22,7 +23,7 @@
   transition: all ease-in-out 0.3s;
 }
 
-.meal-card-header, 
+.meal-card-header,
 .meal-card-body-footer {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -59,10 +60,18 @@
   margin-left: 0.5rem;
 }
 
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+
 /*-- Media queries ------------------------------------------------------*/
 
 @media (max-width: 960px) {
-.meal-card {
-  grid-row: auto;
-}
+  .meal-card {
+    grid-row: auto;
+  }
 }

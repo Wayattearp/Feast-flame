@@ -134,16 +134,13 @@ main {
 
 .booking {
   background-color: #F7F1E5;
-  padding: 1em;
+  padding: 3em;
   text-align: center;
 }
 
 footer {
-  border-radius:  200px 0 0;
-  background-color: #E7B10A;
-  padding: 1em;
+  background-color: #f7a325c5;
   text-align: center;
-  margin-top: 2vh;
 }
 
 /* Flame */
@@ -309,7 +306,7 @@ footer {
   font-weight: 600;
   transition: background-color 0.8s ease;
   font-family: 'Ledger', serif;
-  /* Add transition for animation */
+  margin-top: 2vh;
 }
 
 .reservation-form input[type="submit"]:hover {
@@ -368,6 +365,8 @@ footer {
 
 footer img {
   display: flex;
+  margin: -15px;
+  margin-left: 3vw;
 }
 
 .reservation-button {
@@ -392,6 +391,7 @@ footer img {
   padding-top: 1.875rem;
   background-color: #f7f1e5;
   border-radius: 0px 0px 48px 48px;
+  font-family: 'Kurale', serif;
 }
 
 .hero .container {
@@ -402,7 +402,6 @@ footer img {
 
 .hero-information {
   grid-column: 1;
-  font-family: 'Kurale', serif;
 }
 
 .hero-information h1 {
@@ -412,11 +411,13 @@ footer img {
 
 .hero-information h2 {
   color: #f08e1f;
+  font-size: x-large;
 }
 
 .hero-information p {
   margin-top: 1.5rem;
   color: #4d4b16;
+  font-size: large;
 }
 
 .hero-image {
