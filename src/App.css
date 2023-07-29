@@ -138,11 +138,6 @@ main {
   text-align: center;
 }
 
-footer {
-  background-color: #f7a325c5;
-  text-align: center;
-}
-
 /* Flame */
 
 .mo-fire {
@@ -363,11 +358,6 @@ footer {
   color: #28a745;
 }
 
-footer img {
-  display: flex;
-  margin: -15px;
-  margin-left: 3vw;
-}
 
 .reservation-button {
   background-color: #fbc579;
