@@ -89,6 +89,7 @@ function Form() {
                 type="submit"
                 value="Make Your reservation"
                 disabled={!isFormValid()} // Disable the button if the form is not valid
+                aria-label="On Click"
             />
         </form>
     );
