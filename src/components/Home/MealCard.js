@@ -1,6 +1,7 @@
 import { faTruck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './MealCard.css';
+import { Link } from 'react-router-dom';
 
 const MealCard = ({ meal }) => {
   return (
@@ -15,7 +16,10 @@ const MealCard = ({ meal }) => {
       <div className="meal-card-body-footer">
         <p>{meal.description}</p>
         <div className='order'>
-          Order a delivery <FontAwesomeIcon icon={faTruck} color='#862b0deb' />
+          <Link to="/under-construction">
+            Order a delivery
+            <FontAwesomeIcon icon={faTruck} color='#862b0deb' />
+          </Link>
         </div>
       </div>
     </article>

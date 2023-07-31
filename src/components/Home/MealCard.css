@@ -68,6 +68,12 @@
   cursor: pointer;
 }
 
+.order a {
+  color:#4d4b16;
+}
+
+
+
 /*-- Media queries ------------------------------------------------------*/
 
 @media (max-width: 960px) {

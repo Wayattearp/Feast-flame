@@ -27,10 +27,30 @@
   transition: color 0.5s;
 }
 
-.site-footer a:hover,
+#facebook:hover {
+  color: blue;
+  transition: color 0.5s;
+}
+
+#twitter:hover {
+  color: skyblue;
+  transition: color 0.5s;
+}
+
+#instagram:hover {
+  color: #d6249f;
+  transition: color 0.5s;
+}
+
+#youtube:hover {
+  color: red;
+  transition: color 0.5s;
+}
+/* .site-footer a:hover,
 .site-footer a:focus {
   color: #efe3bf;
-}
+} */
+
 
 .site-footer-contact {
   grid-column: 2;

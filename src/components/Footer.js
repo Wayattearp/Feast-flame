@@ -50,6 +50,7 @@ const Footer = () => {
                     <h4>Connect with us</h4>
                     {socials.map((social, index) =>
                         <a
+                            id={social.name}
                             key={index}
                             href={`https://www.${social.name}.com`}
                             target="_blank"
