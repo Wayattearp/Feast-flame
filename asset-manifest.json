@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/feast-flame/static/css/main.0fa86055.css",
-    "main.js": "/feast-flame/static/js/main.3a7081b3.js",
+    "main.css": "/feast-flame/static/css/main.437f671c.css",
+    "main.js": "/feast-flame/static/js/main.1d047d96.js",
     "static/js/787.e89d78e9.chunk.js": "/feast-flame/static/js/787.e89d78e9.chunk.js",
     "static/media/background1.png": "/feast-flame/static/media/background1.95fd025c14f682a8a716.png",
     "static/media/SeaBreezeSalad.png": "/feast-flame/static/media/SeaBreezeSalad.fcd64fa4842b4e5c0fef.png",
     "static/media/restaurant-food.png": "/feast-flame/static/media/restaurant-food.85accf54ff539fce808e.png",
     "static/media/TuscanHerbCrustedSalmon.png": "/feast-flame/static/media/TuscanHerbCrustedSalmon.0d236ab0cbe73ccc60c7.png",
     "static/media/GrandMarnierFlambeédOranges.png": "/feast-flame/static/media/GrandMarnierFlambeédOranges.bad6294fae82f5e97d20.png",
-    "static/media/logo.png": "/feast-flame/static/media/logo.25cad729584727545dc4.png",
+    "static/media/logo.png": "/feast-flame/static/media/logo.355886d6e8a340d2f5a4.png",
     "index.html": "/feast-flame/index.html",
-    "main.0fa86055.css.map": "/feast-flame/static/css/main.0fa86055.css.map",
-    "main.3a7081b3.js.map": "/feast-flame/static/js/main.3a7081b3.js.map",
+    "main.437f671c.css.map": "/feast-flame/static/css/main.437f671c.css.map",
+    "main.1d047d96.js.map": "/feast-flame/static/js/main.1d047d96.js.map",
     "787.e89d78e9.chunk.js.map": "/feast-flame/static/js/787.e89d78e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fa86055.css",
-    "static/js/main.3a7081b3.js"
+    "static/css/main.437f671c.css",
+    "static/js/main.1d047d96.js"
   ]
 }
