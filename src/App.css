@@ -64,11 +64,15 @@ header {
   justify-content: center;
 }
 
+header h1{
+  line-height: 1;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
-    padding: 1em;
+    padding: 0 1em;
   }
 
   nav {
@@ -367,14 +371,15 @@ main {
   border-radius: 20px;
   cursor: pointer;
   font-weight: 700;
-  transition: background-color 0.8s ease;
+  transition: background-color 1.5s ease, color 1.5s ease, box-shadow 0.5s ease;
   font-family: 'Ledger', serif;
   margin-top: 2rem;
 }
 
 .reservation-button:hover {
-  color: #F7F1E5;
+  color: #fffccd;
   background-color: #948a23;
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 204, 0.3);
 }
 
 .hero {
@@ -382,6 +387,7 @@ main {
   background-color: #f7f1e5;
   border-radius: 0px 0px 48px 48px;
   font-family: 'Kurale', serif;
+  margin-bottom: -10vh;
 }
 
 .hero .container {
