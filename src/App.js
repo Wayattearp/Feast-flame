@@ -15,7 +15,7 @@ function App() {
     <div className='wrapper'>
       <Router>
         <Header />
-        <Nav />
+        {/* <Nav /> */}
         <Routes>
           <Route path="/feast-flame" element={<Main />} />
           <Route path="/booking" element={<Booking />} />
