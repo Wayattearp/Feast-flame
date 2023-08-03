@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/feast-flame/static/css/main.a71d2c80.css",
-    "main.js": "/feast-flame/static/js/main.554fa371.js",
+    "main.css": "/feast-flame/static/css/main.bf3d8aa3.css",
+    "main.js": "/feast-flame/static/js/main.d1ce098e.js",
     "static/js/787.e89d78e9.chunk.js": "/feast-flame/static/js/787.e89d78e9.chunk.js",
     "static/media/background1.png": "/feast-flame/static/media/background1.95fd025c14f682a8a716.png",
     "static/media/SeaBreezeSalad.png": "/feast-flame/static/media/SeaBreezeSalad.fcd64fa4842b4e5c0fef.png",
@@ -10,12 +10,12 @@
     "static/media/GrandMarnierFlambeédOranges.png": "/feast-flame/static/media/GrandMarnierFlambeédOranges.bad6294fae82f5e97d20.png",
     "static/media/logo.png": "/feast-flame/static/media/logo.355886d6e8a340d2f5a4.png",
     "index.html": "/feast-flame/index.html",
-    "main.a71d2c80.css.map": "/feast-flame/static/css/main.a71d2c80.css.map",
-    "main.554fa371.js.map": "/feast-flame/static/js/main.554fa371.js.map",
+    "main.bf3d8aa3.css.map": "/feast-flame/static/css/main.bf3d8aa3.css.map",
+    "main.d1ce098e.js.map": "/feast-flame/static/js/main.d1ce098e.js.map",
     "787.e89d78e9.chunk.js.map": "/feast-flame/static/js/787.e89d78e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71d2c80.css",
-    "static/js/main.554fa371.js"
+    "static/css/main.bf3d8aa3.css",
+    "static/js/main.d1ce098e.js"
   ]
 }
