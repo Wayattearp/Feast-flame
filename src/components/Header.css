@@ -59,7 +59,7 @@ nav a:hover {
 .nav-bar-hamburger {
   position: absolute;
   top: 1.5rem;
-  right: 1rem;
+  left: 1rem;
   width: 2.5rem;
   justify-self: end;
   display: inline-block;
@@ -75,10 +75,10 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   height: 70vh;
-  top: 0;
+  top: 25vh;
   left: -50%;
   background-color: #948a23ef;
   box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.2);
   z-index: 100;
-  border-radius: 0 0 48px 0;
+  border-radius: 0 48px 48px 0;
 }
