@@ -9,6 +9,7 @@ import Nav from './components/Nav';
 import Booking from './components/Booking/Booking';
 import ConfirmedBooking from './components/Booking/ConfirmedBooking';
 import UnderConstruction from './components/UnderConstruction/UnderConstriction';
+import Menu from './components/Menu/Menu';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/booking" element={<Booking />} />
           <Route path="/confirmed" element={<ConfirmedBooking />} />
           <Route path="/under-construction" element={<UnderConstruction />} />
+          <Route path='/menu' element={<Menu />} />
         </Routes>
         <Footer />
       </Router>
