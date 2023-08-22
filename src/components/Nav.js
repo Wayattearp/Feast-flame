@@ -5,7 +5,7 @@ function Nav() {
     return (
         <nav>
             <Link to="/booking">RESERVATIONS</Link>
-            <Link to="/under-construction">MENU</Link>
+            <Link to="/menu">MENU</Link>
             <Link to="/feast-flame">ABOUT</Link>
             <a href="https://www.linkedin.com/" target="_blank">FIND US</a>
             <Link to="/under-construction">ORDER ONLINE</Link>

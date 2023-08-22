@@ -1,0 +1,83 @@
+.menuitem {
+    grid-column: auto;
+    grid-row: 2;
+    min-height: 31.25rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #F7F1E5;
+    margin-bottom: 2vh;
+}
+
+.menuitem:hover .menuitem-image img {
+    transform: scale(1.1);
+}
+
+.menuitem-image img {
+    width: 100%;
+    height: 48vh;
+    object-fit: cover;
+    margin-bottom: 0.9375rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.menuitem-header,
+.menuitem-body-footer {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.menuitem-header {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: space-between;
+    margin-bottom: 1.875rem;
+}
+
+.menuitem-header h3 {
+    font-size: 1.15rem;
+}
+
+.menuitem-header span {
+    font-weight: bold;
+    color: #EE9972;
+}
+
+.menuitem-body-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.menuitem-body-footer a {
+    font-weight: bold;
+}
+
+.menuitem-body-footer svg {
+    margin-left: 0.5rem;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.order a {
+    color: #4d4b16;
+}
+
+
+
+/*-- Media queries ------------------------------------------------------*/
+
+@media (max-width: 960px) {
+    .menuitem {
+        grid-row: auto;
+    }
+}

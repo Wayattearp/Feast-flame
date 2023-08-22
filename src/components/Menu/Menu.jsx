@@ -1,10 +1,103 @@
-import React from 'react';
+import SeaBreezeSalad from '../Home/assets/SeaBreezeSalad.png'
+import TuscanHerbCrustedSalmon from '../Home/assets/TuscanHerbCrustedSalmon.png';
+import GrandMarnierFlambeédOranges from '../Home/assets/GrandMarnierFlambeédOranges.png';
+import './Menu.css';
+import MealItem from './MenuItem';
 
-function Menu() {
+const meals = [
+    {
+        name: 'Sea Breeze Salad',
+        image: SeaBreezeSalad,
+        price: '$15.00',
+        description: `A refreshing salad inspired by the Mediterranean coastline,
+     featuring a delightful mix of crisp mixed greens, juicy cherry tomatoes, tangy Kalamata olives, creamy feta cheese, and a sprinkling of toasted pine nuts. Drizzled with a zesty lemon-oregano vinaigrette, this salad captures the essence of a cool sea breeze on a warm summer day.`,
+    },
+    {
+        name: 'Tuscan Herb-Crusted Salmon',
+        image: TuscanHerbCrustedSalmon,
+        price: '$35.00',
+        description: `Immerse yourself in the flavors of Tuscany with our signature herb-crusted salmon. A succulent fillet of salmon is perfectly seared to create a golden crust that locks in the fish's natural juiciness. Served with a side of roasted seasonal vegetables,
+     this dish is a true celebration of European culinary excellence.`,
+    },
+    {
+        name: 'Grand Marnier Flambeéd Oranges',
+        image: GrandMarnierFlambeédOranges,
+        price: '$18.00',
+        description: `Juicy orange segments gently sautéed in luscious Grand Marnier-infused syrup, skillfully flambéed to release captivating liqueur aroma. Served warm with a dollop of vanilla bean ice cream for a delightful balance of sweet and citrusy flavors, this dessert leaves a lasting impression on your palate.`,
+    },
+    {
+        name: 'Sea Breeze Salad',
+        image: SeaBreezeSalad,
+        price: '$15.00',
+        description: `A refreshing salad inspired by the Mediterranean coastline,
+     featuring a delightful mix of crisp mixed greens, juicy cherry tomatoes, tangy Kalamata olives, creamy feta cheese, and a sprinkling of toasted pine nuts. Drizzled with a zesty lemon-oregano vinaigrette, this salad captures the essence of a cool sea breeze on a warm summer day.`,
+    },
+    {
+        name: 'Tuscan Herb-Crusted Salmon',
+        image: TuscanHerbCrustedSalmon,
+        price: '$35.00',
+        description: `Immerse yourself in the flavors of Tuscany with our signature herb-crusted salmon. A succulent fillet of salmon is perfectly seared to create a golden crust that locks in the fish's natural juiciness. Served with a side of roasted seasonal vegetables,
+     this dish is a true celebration of European culinary excellence.`,
+    },
+    {
+        name: 'Grand Marnier Flambeéd Oranges',
+        image: GrandMarnierFlambeédOranges,
+        price: '$18.00',
+        description: `Juicy orange segments gently sautéed in luscious Grand Marnier-infused syrup, skillfully flambéed to release captivating liqueur aroma. Served warm with a dollop of vanilla bean ice cream for a delightful balance of sweet and citrusy flavors, this dessert leaves a lasting impression on your palate.`,
+    },
+    {
+        name: 'Sea Breeze Salad',
+        image: SeaBreezeSalad,
+        price: '$15.00',
+        description: `A refreshing salad inspired by the Mediterranean coastline,
+     featuring a delightful mix of crisp mixed greens, juicy cherry tomatoes, tangy Kalamata olives, creamy feta cheese, and a sprinkling of toasted pine nuts. Drizzled with a zesty lemon-oregano vinaigrette, this salad captures the essence of a cool sea breeze on a warm summer day.`,
+    },
+    {
+        name: 'Tuscan Herb-Crusted Salmon',
+        image: TuscanHerbCrustedSalmon,
+        price: '$35.00',
+        description: `Immerse yourself in the flavors of Tuscany with our signature herb-crusted salmon. A succulent fillet of salmon is perfectly seared to create a golden crust that locks in the fish's natural juiciness. Served with a side of roasted seasonal vegetables,
+     this dish is a true celebration of European culinary excellence.`,
+    },
+    {
+        name: 'Grand Marnier Flambeéd Oranges',
+        image: GrandMarnierFlambeédOranges,
+        price: '$18.00',
+        description: `Juicy orange segments gently sautéed in luscious Grand Marnier-infused syrup, skillfully flambéed to release captivating liqueur aroma. Served warm with a dollop of vanilla bean ice cream for a delightful balance of sweet and citrusy flavors, this dessert leaves a lasting impression on your palate.`,
+    },
+    {
+        name: 'Sea Breeze Salad',
+        image: SeaBreezeSalad,
+        price: '$15.00',
+        description: `A refreshing salad inspired by the Mediterranean coastline,
+     featuring a delightful mix of crisp mixed greens, juicy cherry tomatoes, tangy Kalamata olives, creamy feta cheese, and a sprinkling of toasted pine nuts. Drizzled with a zesty lemon-oregano vinaigrette, this salad captures the essence of a cool sea breeze on a warm summer day.`,
+    },
+    {
+        name: 'Tuscan Herb-Crusted Salmon',
+        image: TuscanHerbCrustedSalmon,
+        price: '$35.00',
+        description: `Immerse yourself in the flavors of Tuscany with our signature herb-crusted salmon. A succulent fillet of salmon is perfectly seared to create a golden crust that locks in the fish's natural juiciness. Served with a side of roasted seasonal vegetables,
+     this dish is a true celebration of European culinary excellence.`,
+    },
+    {
+        name: 'Grand Marnier Flambeéd Oranges',
+        image: GrandMarnierFlambeédOranges,
+        price: '$18.00',
+        description: `Juicy orange segments gently sautéed in luscious Grand Marnier-infused syrup, skillfully flambéed to release captivating liqueur aroma. Served warm with a dollop of vanilla bean ice cream for a delightful balance of sweet and citrusy flavors, this dessert leaves a lasting impression on your palate.`,
+    },
+];
+
+function Menu () {
     return (
-        <div className='menu'>
-            <h2>Menu</h2>
-        </div>
-    )
-}
-export default Menu
+        <section className="container menu">
+            <div className="menu-header">
+                <h2>Experience the culinary indulgence!</h2>
+            </div>
+            {meals.map((meal, index) =>
+                <MealItem key={index} meal={meal} />
+            )}
+        </section>
+    );
+};
+
+export default Menu;
