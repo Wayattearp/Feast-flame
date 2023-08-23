@@ -34,15 +34,17 @@
     gap: 1.25rem;
     justify-content: space-between;
     margin-bottom: 1.875rem;
+    margin-top: 2vh
 }
 
 .menuitem-header h3 {
-    font-size: 1.15rem;
+    font-size: x-large;
 }
 
 .menuitem-header span {
     font-weight: bold;
     color: #EE9972;
+    font-size: large;
 }
 
 .menuitem-body-footer {
