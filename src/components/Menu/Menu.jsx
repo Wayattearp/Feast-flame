@@ -97,7 +97,9 @@ function Menu() {
                 <h2>Experience the culinary indulgence!</h2>
             </div>
             {meals.map((meal, index) =>
-                <MealItem key={index} meal={meal} />
+                <div key={index} className="meal-item">
+                    <MealItem key={index} meal={meal} />
+                </div>
             )}
         </section>
     );
