@@ -1,6 +1,5 @@
 .menu {
   display: grid;
-  /* add this line */
   grid-template-columns: repeat(2, 1fr);
   /* 2 columns */
   grid-template-rows: auto auto;
