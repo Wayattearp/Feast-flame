@@ -10,13 +10,11 @@ function Form() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // Get the current date in the format "YYYY-MM-DD"
         const currentDate = new Date().toISOString().split('T')[0];
         setDate(currentDate);
     }, []); // Run this effect only once on component mount
 
     const isFormValid = () => {
-        // Implement additional validation rules here
         if (guests < 1 || guests > 10) {
             return false;
         }
@@ -43,7 +41,7 @@ function Form() {
                 id="res-date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
-                required // This attribute makes the field required
+                required
                 min={new Date().toISOString().split('T')[0]} // Minimum date is today
             />
 
@@ -52,7 +50,7 @@ function Form() {
                 id="res-time"
                 value={time}
                 onChange={(e) => setTime(e.target.value)}
-                required // This attribute makes the field required
+                required
             >
                 {/* Populate options from the availableTimes state */}
                 {availableTimes.map((time) => (

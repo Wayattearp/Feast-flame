@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Footer.css';
 
 const contacts = [
-    { icon: faLocationDot, info: '123 First ave, Fort Lee, NJ, 07024', },
+    { icon: faLocationDot, info: '123 Fourth ave, Fort Lee, NJ, 07024', },
     { icon: faPhone, info: '(123) 456-7890', },
     { icon: faEnvelope, info: 'customer@feast-flame.com', },
 ];
