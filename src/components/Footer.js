@@ -34,7 +34,7 @@ const Footer = () => {
                 <img
                     className="site-footer-logo"
                     src={logo}
-                    alt="Little Lemon"
+                    alt="Feast Flame"
                 />
                 <div className="site-footer-contact">
                     <h4>Contact us</h4>
@@ -53,8 +53,8 @@ const Footer = () => {
                             id={social.name}
                             key={index}
                             href={`https://www.${social.name}.com`}
-                            target="_blank"
-                            rel="noreferrer"
+                            target="_blank" // opens a new tab
+                            rel="noreferrer" //ensures that the linked page cannot access information about the referring page, enhancing security and privacy.
                         >
                             <FontAwesomeIcon icon={social.icon} size="lg" />
                         </a>
