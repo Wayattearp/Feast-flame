@@ -46,11 +46,6 @@
   color: red;
   transition: color 0.5s;
 }
-/* .site-footer a:hover,
-.site-footer a:focus {
-  color: #efe3bf;
-} */
-
 
 .site-footer-contact {
   grid-column: 2;
