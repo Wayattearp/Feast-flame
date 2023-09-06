@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Flame() {
     return (
         <div className="mo-fire">
