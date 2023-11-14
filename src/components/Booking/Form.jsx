@@ -75,9 +75,10 @@ function Form() {
                 id="occasion"
                 value={occasion}
                 onChange={(e) => setOccasion(e.target.value)}
-                required // This attribute makes the field required
+                required
+                defaultValue="Other" // Set the default value to "Other"
             >
-                <option value="">Select an occasion</option> {/* Add an empty option to force selection */}
+                <option value="Other">Other</option>
                 <option value="Birthday">Birthday</option>
                 <option value="Anniversary">Anniversary</option>
             </select>
