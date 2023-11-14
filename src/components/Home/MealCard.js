@@ -16,7 +16,7 @@ const MealCard = ({ meal }) => {
       <div className="meal-card-body-footer">
         <p>{meal.description}</p>
         <div className='order'>
-          <Link to="/under-construction">
+          <Link to="/menu">
             Order a delivery
             <FontAwesomeIcon icon={faTruck} color='#862b0deb' />
           </Link>

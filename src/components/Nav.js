@@ -7,8 +7,8 @@ function Nav() {
             <Link to="/booking">RESERVATIONS</Link>
             <Link to="/menu">MENU</Link>
             <Link to="/feast-flame">ABOUT</Link>
-            <a href="https://www.linkedin.com/" target="_blank">FIND US</a>
-            <Link to="/under-construction">ORDER ONLINE</Link>
+            <a href="https://www.linkedin.com/in/anton-miles/" target="_blank">FIND US</a>
+            <Link to="/menu">ORDER ONLINE</Link>
         </nav>
     )
 }
